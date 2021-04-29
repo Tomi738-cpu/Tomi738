@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="bg-light p-5 rounded-lg m-3">
+    <h1 class="display-4">Hola linde</h1>
+    <p class="lead">Esta es mi primer página web</p>
+    <hr class="my-4">
+    <p>Para continuar, te pido que vayas arriba a la derecha donde dice "about"</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('notocar') }}" role="button">NO TOCAR</a>
+  </div>
+
+
+{% endblock %}
